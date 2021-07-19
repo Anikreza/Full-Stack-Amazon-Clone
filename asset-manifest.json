@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Full-Stack-Amazon-Clone/static/css/main.1f43b480.chunk.css",
+    "main.js": "/Full-Stack-Amazon-Clone/static/js/main.2e65ebae.chunk.js",
+    "main.js.map": "/Full-Stack-Amazon-Clone/static/js/main.2e65ebae.chunk.js.map",
+    "runtime-main.js": "/Full-Stack-Amazon-Clone/static/js/runtime-main.ed50c9a8.js",
+    "runtime-main.js.map": "/Full-Stack-Amazon-Clone/static/js/runtime-main.ed50c9a8.js.map",
+    "static/js/2.ae060b7c.chunk.js": "/Full-Stack-Amazon-Clone/static/js/2.ae060b7c.chunk.js",
+    "static/js/2.ae060b7c.chunk.js.map": "/Full-Stack-Amazon-Clone/static/js/2.ae060b7c.chunk.js.map",
+    "static/js/3.fbf9c1ea.chunk.js": "/Full-Stack-Amazon-Clone/static/js/3.fbf9c1ea.chunk.js",
+    "static/js/3.fbf9c1ea.chunk.js.map": "/Full-Stack-Amazon-Clone/static/js/3.fbf9c1ea.chunk.js.map",
+    "index.html": "/Full-Stack-Amazon-Clone/index.html",
+    "static/css/main.1f43b480.chunk.css.map": "/Full-Stack-Amazon-Clone/static/css/main.1f43b480.chunk.css.map",
+    "static/js/2.ae060b7c.chunk.js.LICENSE.txt": "/Full-Stack-Amazon-Clone/static/js/2.ae060b7c.chunk.js.LICENSE.txt",
+    "static/media/a.e9013d0a.jpg": "/Full-Stack-Amazon-Clone/static/media/a.e9013d0a.jpg",
+    "static/media/b.a59905e4.png": "/Full-Stack-Amazon-Clone/static/media/b.a59905e4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed50c9a8.js",
+    "static/js/2.ae060b7c.chunk.js",
+    "static/css/main.1f43b480.chunk.css",
+    "static/js/main.2e65ebae.chunk.js"
+  ]
+}
