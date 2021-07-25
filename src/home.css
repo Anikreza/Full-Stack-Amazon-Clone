@@ -1,0 +1,24 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+ 
+  }
+
+  .row{
+    margin: 10px 10px; 
+  }
+  .row,
+.row > .column {
+  padding:50px;
+}
+  
+  .home-image {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
