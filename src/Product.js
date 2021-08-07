@@ -1,11 +1,13 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './product.css'
 import {useStateValue} from './StateProvider'
+import { AiFillStar } from 'react-icons/ai';
 
 
 const Product = ({id,title,image,price,rating}) => {
 
     const [{ basket }, dispatch] = useStateValue();
+    const [seed, setSeed]=useState("")
 
   const addToBasket = () => {
     // dispatch the item into the data layer
@@ -21,26 +23,36 @@ const Product = ({id,title,image,price,rating}) => {
     });
   };
 
+  useEffect(() => {
+    setSeed(Math.floor(Math.random() *4));        
+}, []);
+
     return (
       <div className='product'>
 
              <div className='column'>
                     <div className='contenta'>
-                    <p className='product-info'>{title}</p>
-                    <img width='100%' height='300px' src={image} />
-                <p className='product-price '>
+
+                    <img src={image} />
+
+               <div className='info-container'>
+                    <p className='product-price '>
                     <small> $</small>
                     <strong>{price}</strong>
-                </p>
+                    </p>
+
+                    <p className='product-info'>{title}</p>
+                    
 
                 <div className='product-rating'>
-                    {Array(rating).fill().map((_,i)=> (
-                          <p> 🌟</p>
+                    {Array(seed+1).fill().map((_,i)=> (
+                        <p> <AiFillStar color='#cd9042' size='20px'/></p>
                     ))}
                   
-                </div>
                
-                <button onClick={addToBasket}> Add To Basket</button> 
+                </div>
+                <button onClick={addToBasket}> Add To Cart</button> 
+                </div>
              </div>
        
 

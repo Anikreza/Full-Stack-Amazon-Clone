@@ -1,11 +1,9 @@
 .header{
-    height: 60px;
+    height: 63px;
     display: flex;
     align-items: center;
     background-color: #131921;
-    position: sticky;
-    top: 0;
-    z-index: 100;   
+    top: 0;  
 }
 
 .header-logo{
@@ -22,11 +20,17 @@
 }
 .header-src-icon{
     padding: 5px;
-    height: 22px !important;
-    background-color: #cd9042;
+    width: 30px !important;
+    height: 27.5px !important;
+    background-color: #e4a046;
+    opacity: .9;
+}
+.header-src-icon:hover{
+    background-color:#cd9042; 
+    cursor: pointer;
 }
 .header-src-input{
-    height: 12px;
+    height: 17px;
     padding: 10px;
     border: none;
     width: 100%;
@@ -45,10 +49,13 @@
     justify-content: space-evenly;
 }
 .header-option-lineone{
-  font-size: 10px;
+  padding-top: 5px;  
+  padding-left: 10px;
+  font-size: 12px;
 }
 .header-option-linetwo{
-    font-size: 12px;
+    padding-left: 10px;
+    font-size: 14px;
     font-weight: 800;
 }
 
@@ -56,7 +63,10 @@
     display: flex;
     align-items: center;
     color: white;
+    padding-right: 10px;
+    padding-left: 10px;
 }
+
 .header-basketcount{
     margin-left: 10px;
     margin-right: 10px;
@@ -64,4 +74,46 @@
 
 .header-nav a{
     text-decoration: none;
+}
+
+.deliverto p{
+   color: white;
+   font-weight: bold;
+   padding-right: 10px;
+}
+.deliverto p1{
+   color: white;
+   font-weight: lighter;
+   font-size: smaller;
+}
+
+.deliverto{
+    display: flex; 
+    padding-right: 5px;  
+}
+
+.select{
+    width: 50px;
+    height: 40px;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+}
+.select:hover{
+    border-color: #cd9042; 
+    border-radius: 5px;
+}
+.select> option{
+    background-color: white;
+}
+
+.country-flag{
+   padding: 20px 0px 20px 20px;
+   display: flex;
+   width: 2%;
+   margin-top: 10px;
+}
+.cart{
+    color: white;
+    padding-left: 25px;
 }

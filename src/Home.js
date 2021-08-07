@@ -3,6 +3,8 @@ import './home.css'
 import Product from './Product'
 import a from './a.jpg'
 import b from './b.png'
+import ImageSlider from './ImageSlider';
+import { SliderData } from './SliderData';
 
 const Home = () => {
 
@@ -25,8 +27,7 @@ const Home = () => {
     return (
         <div className='home'>
             <div className='home-container'>
-                <img className='home-image' 
-                src={'https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg'}/> 
+            <a href='#'><ImageSlider slides={SliderData}/> </a>;
             </div>
 
             <div className='row'>
@@ -37,10 +38,10 @@ const Home = () => {
                         title={api.title}
                         price={api.price}
                         image={api.image}
-                        rating={5}  
+                         
                     />
                  ))}
-  
+
                   
             </div>
 

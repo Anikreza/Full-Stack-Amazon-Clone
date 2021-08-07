@@ -1,0 +1,16 @@
+.navbar{
+    background-color: #2d3440;
+}
+
+.navul{
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    height: 40px;
+}
+
+.navul> a{
+    padding-top: 7px;
+    text-decoration: none;
+    color: white;
+}

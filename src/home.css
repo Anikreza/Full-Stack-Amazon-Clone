@@ -2,23 +2,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
+    margin-right: 0px;
  
   }
 
   .row{
-    margin: 10px 10px; 
+    margin: 20px 20px; 
   }
   .row,
 .row > .column {
-  padding:50px;
+  padding:0px;
 }
   
-  .home-image {
+  .home-container {
     width: 100%;
     height: auto;
-    z-index: -1;
-    margin-bottom: -150px;
+    margin-bottom: -250px;
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   }
